@@ -4,7 +4,7 @@ github.com/beorn7/perks/quantile
 # github.com/containernetworking/plugins v0.7.3
 ## explicit
 github.com/containernetworking/plugins/pkg/utils/sysctl
-# github.com/coreos/go-iptables v0.4.0
+# github.com/coreos/go-iptables v0.4.5
 ## explicit
 github.com/coreos/go-iptables/iptables
 # github.com/davecgh/go-spew v1.1.1
@@ -50,6 +50,8 @@ github.com/matttproud/golang_protobuf_extensions/pbutil
 github.com/modern-go/concurrent
 # github.com/modern-go/reflect2 v1.0.1
 github.com/modern-go/reflect2
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
 # github.com/prometheus/client_golang v0.9.0
 ## explicit
 github.com/prometheus/client_golang/prometheus
@@ -71,6 +73,9 @@ github.com/prometheus/procfs/xfs
 # github.com/spf13/pflag v1.0.5
 ## explicit
 github.com/spf13/pflag
+# github.com/stretchr/testify v1.6.1
+## explicit
+github.com/stretchr/testify/assert
 # github.com/vishvananda/netlink v1.1.1-0.20200210145206-a2e8781202af
 ## explicit
 github.com/vishvananda/netlink
@@ -79,7 +84,6 @@ github.com/vishvananda/netlink/nl
 ## explicit
 github.com/vishvananda/netns
 # golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
-## explicit
 golang.org/x/crypto/ssh/terminal
 # golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 golang.org/x/net/context
@@ -145,6 +149,8 @@ google.golang.org/protobuf/types/known/timestamppb
 gopkg.in/inf.v0
 # gopkg.in/yaml.v2 v2.2.8
 gopkg.in/yaml.v2
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+gopkg.in/yaml.v3
 # k8s.io/api v0.20.0
 ## explicit
 k8s.io/api/admissionregistration/v1
