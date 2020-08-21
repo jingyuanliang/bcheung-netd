@@ -17,7 +17,10 @@ FROM ARG_FROM
 MAINTAINER Zihong Zheng <zihongz@google.com>
 
 RUN apt-get -y update
+// TODO remove jq
 RUN apt-get -y install curl jq bash iproute2
+
+// TODO use golang binary
 ADD scripts/install-cni.sh /install-cni.sh
 ADD bin/ARG_ARCH/ARG_BIN /ARG_BIN
 
